@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services</title>
+  <!-- google font -->
+  <link rel="stylesheet" href="Font/Inter_font/stylesheet.css">
+  <link rel="stylesheet" href="Font/Tajawal/stylesheet.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="Css/all.min.css">
+  <!-- Normalize -->
+  <link rel="stylesheet" href="Css/normalize.css">
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="Bootstrap/bootstrap/css/bootstrap.min.css">
+  <!-- web icon -->
+  <link rel="icon" href="Img/icon.png">
+  <!-- Portfolio CSS -->
+  <link rel="stylesheet" href="Css/portfolio.css">
+</head>
+<body>
+
+  <header>
+    <!-- start Navbar -->
+    <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <!-- Brand -->
+              <a class="navbar-brand" href="portfolio.html"><h1><span id="logo-B" ><img src="Img/logo-B.png" alt="LOGO"></span>adis<span class="circle"></span></h1></a>
+
+              <!-- Toggler (hamburger icon for mobile) -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"  
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <!-- Navbar links -->
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" data-key="NavHome" aria-current="page" href="portfolio.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-key="NavAbout" href="#">About</a>
+                  </li>
+                  <div class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" data-key="NavSer" href="#">Services</a>
+                    <div class="dropdown-menu m-0">
+                      <a href="#" class="dropdown-item" data-key="web">Web Dev</a>
+                      <a href="#" class="dropdown-item" data-key="net">Networking</a>
+                      <a href="#" class="dropdown-item" data-key="cyber">CyberSecurity</a>
+                      <a href="#" class="dropdown-item" data-key="auto">Automation</a>
+                    </div>
+                  </div>
+                  <li class="nav-item">
+                    <a class="nav-link" data-key="cont" href="#">ContactMe</a>
+                  </li>
+                  <li class="nav-item">
+                    <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle dark mode">
+                      🌙
+                    </button>
+                  </li>
+                  <!-- language btn -->
+                  <li class="nav-item">
+                    <button class="switch-lang" id="lang-toggle">🌐 العربية</button>
+                  </li>
+                  <!-- language btn -->
+
+                  <!-- <li class="nav-item">
+                    <a class="nav-link disabled" tabindex="-1" aria-disabled="true">Disabled</a>
+                  </li> -->
+                </ul>
+              </div>
+            </div>
+    </nav>
+    <!-- End Navbar -->
+  </header>
+
+  <!-- main content -->
+  <main>
+    <!-- start hero -->
+    <section id="hero">
+      <div id="conta" class="row justify-content-center">
+        <div class="col-md-12 text-center my-5 pt-5 fade-in-up">
+          <div class="section-header text-center">
+            <nav class="breadcrumb d-flex justify-content-center" data-key="contact-nav">
+              <a href="portfolio.html" class="breadcrumb-item" data-key="contact-home">Home</a>
+              <span class="breadcrumb-item activ" aria-current="page">Services-Details</span>
+            </nav>
+            <h2 class="contact-title display-1 fw-bold" data-key="contactTitle">Our Services</h2>
+            <p class="text-center" data-key="contactSub">Explore the range of services I provide <br> to help you achieve your goals.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end hero -->
+
+    <!-- start content -->
+    <section id="services-content">
+      <div class="services-content"></div>
+    </section>
+    <!-- start content -->
+    
+  </main>
+  <!-- main content -->
+
+</body>
+<!-- Portfolio JS -->
+<script src="JS/portfolio.js"></script>
+<!-- Bootstrap JS -->
+<script src="Bootstrap/bootstrap/js/bootstrap.bundle.min.js"></script>
+</html>

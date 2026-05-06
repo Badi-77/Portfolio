@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <!-- Google Fonts -->
+  <link rel="stylesheet" href="Font/Tangerine_font/stylesheet.css">
+  <link rel="stylesheet" href="Font/Inter_font/stylesheet.css">
+  <link rel="stylesheet" href="Font/Tajawal/stylesheet.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="Css/all.min.css">
+  <!-- Normalize -->
+  <link rel="stylesheet" href="Css/normalize.css">
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="Bootstrap/bootstrap/css/bootstrap.min.css">
+  <!-- web icon -->
+  <link rel="icon" href="Img/icon.png">
+  <!-- Portfolio CSS -->
+  <link rel="stylesheet" href="Css/portfolio.css">
+</head>
+
+<body>
+
+<!-- INTRO SCREEN -->
+<div id="intro">
+
+  <div class="container">
+    <div class="text">
+      <h1 class="logo">BADIS</h1>
+      <p class="subtitle">Welcome To My WebSite</p>
+    </div>
+
+    <div class="start-button">
+      <button id="start-btn">START</button>
+    </div>
+  </div>   
+
+</div>
+<!-- end INTRO SCREEN -->
+
+<!-- MAIN WEBSITE -->
+<div id="main-content">
+  
+  <header>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+              <!-- Brand -->
+              <a class="navbar-brand" href="#"><h1><span id="logo-B" ><img src="Img/logo-B.png" alt="LOGO"></span>adis<span class="circle"></span></h1></a>
+  
+              <!-- Toggler (hamburger icon for mobile) -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"  
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+  
+              <!-- Navbar links -->
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" data-key="NavHome" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-key="NavAbout" href="About.html">About</a>
+                  </li>
+                  <div class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" data-key="NavSer" href="Services.html">Services</a>
+                    <div class="dropdown-menu m-0">
+                      <a href="Services.html#web" class="dropdown-item" data-key="web">Web Dev</a>
+                      <a href="Services.html#Net" class="dropdown-item" data-key="net">Networking</a>
+                      <a href="Services.html#Cyber" class="dropdown-item" data-key="cyber">CyberSecurity</a>
+                      <a href="Services.html#Auto" class="dropdown-item" data-key="auto">Automation</a>
+                    </div>
+                  </div>
+                  <li class="nav-item">
+                    <a class="nav-link" data-key="cont" href="Contact.html">ContactMe</a>
+                  </li>
+                  <li class="nav-item">
+                    <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle dark mode">
+                      🌙
+                    </button>
+                  </li>
+                  <!-- language btn -->
+                  <li class="nav-item">
+                    <button class="switch-lang" id="lang-toggle">🌐 العربية</button>
+                  </li>
+                  <!-- language btn -->
+  
+                  <!-- <li class="nav-item">
+                    <a class="nav-link disabled" tabindex="-1" aria-disabled="true">Disabled</a>
+                  </li> -->
+                </ul>
+              </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+    
+    <!-- Hero Section -->
+    <section id="hero" class="py-5">
+      <div class="container py-5"></div>
+    </section>
+    <!-- Hero Section -->
+    
+  </header>
+
+  <!--  start main -->
+  <main>
+
+    <!--  my skills section -->
+    <section class="my-skills py-5">
+      <div class="container">
+        <div class="progress-content">
+              <h2 class="mb-4" data-key="MyTitle">My Skills</h2>
+
+            <div class="mb-5">
+              <div class="d-flex justify-content-between" data-key="SkillBar1">
+                <span>Web Dev</span>
+                <span>82%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar bg-danger" role="progressbar" data-value="82"></div>
+              </div>
+            </div>
+
+            <div class="mb-5">
+              <div class="d-flex justify-content-between" data-key="SkillBar2">
+                <span>Networking</span>
+                <span>78%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar bg-danger" role="progressbar" data-value="78"></div>
+              </div>
+            </div>
+
+            <div class="mb-5">
+              <div class="d-flex justify-content-between" data-key="SkillBar3">
+                <span>Cybersecurity</span>
+                <span>75%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar bg-danger" role="progressbar" data-value="75"></div>
+              </div>
+            </div>
+
+          <div class="mb-5">
+            <div class="d-flex justify-content-between" data-key="SkillBar4">
+              <span>Automation</span>
+              <span>74%</span>
+            </div>
+            <div class="progress">
+              <div class="progress-bar bg-danger" role="progressbar" data-value="74"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hire">
+          <div class="text">
+            <h2 class="mb-4" data-key="MyWhy">Why Hire Me ?</h2>
+            <p data-key="MySub">
+              I bring a unique blend of technical expertise and creative vision. With strong skills in design and development, I craft solutions that are not only functional but visually compelling. My ability to troubleshoot complex problems, adapt quickly, and deliver clear, engaging presentations makes me a reliable partner for any project. I thrive on collaboration, value originality, and always aim to create work that is accessible, scalable, and future‑ready.
+            </p>
+            <div class="btn-hire">
+              <a href="Contact.html" class="btn btn-outline-danger rounded-pill mt-4" role="button" id="hire">Hire ME</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- end my skills section -->
+
+    <!-- offer section -->
+    <section id="offer" class="position-relative padding-medium">
+      <div class="container fade-in-up">
+        <div class="row">
+          <div class="col-12 text-center mb-5">
+            <h2 class="section-title mb-3" data-key="OfferTitle">What I Offer</h2>
+            <p class="section-subtitle" data-key="OfferSub">Explore the range of services I provide <br> to help you achieve your goals.</p>
+          </div>
+        </div>
+        <div class="row g-4 fade-scale" data-aos="zoom-in-up" data-aos-duration="800">
+          <div class="card col-md-6 col-lg-4">
+            <div class="offer-box p-4 text-center h-100">
+              <i class="fa-solid fa-code fa-3x mb-3"></i>
+              <h3 class="mb-3" data-key="card1">Web Development</h3>
+              <p data-key="sub1">Creating responsive and user-friendly websites using the latest technologies to ensure optimal performance and user experience.</p>
+            </div>
+          </div>
+          <div class="card col-md-6 col-lg-4">
+            <div class="offer-box p-4 text-center h-100">
+              <i class="fa-solid fa-network-wired fa-3x mb-3"></i>
+              <h3 class="mb-3" data-key="card2">Networking Solutions</h3>
+              <p data-key="sub2">Designing and implementing robust network infrastructures to ensure seamless connectivity and security for businesses of all sizes.</p>
+            </div>
+          </div>
+          <div class="card col-md-6 col-lg-4">
+            <div class="offer-box p-4 text-center h-100">
+              <i class="fa-solid fa-shield-alt fa-3x mb-3"></i>
+              <h3 class="mb-3" data-key="card3">Cybersecurity Services</h3>
+              <p data-key="sub3">Providing comprehensive cybersecurity solutions to protect digital assets from threats and vulnerabilities in an ever-evolving landscape.</p>
+            </div>
+          </div>
+          <div class="card col-md-6 col-lg-4">
+            <div class="offer-box p-4 text-center h-100">
+              <i class="fa-solid fa-robot fa-3x mb-3"></i>
+              <h3 class="mb-3" data-key="card4">Automation Services</h3>
+              <p data-key="sub4">Implementing automated workflows and processes to increase efficiency, reduce manual effort, and streamline operations across various domains.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> 
+    <!-- end offer section -->
+
+    <!-- portfolio section -->
+    <section class="portfolio">
+      <div class="container fade-in-up">
+        <h2 class="text-center mb-2" data-key="PortTitle">Portfolio</h2>
+        <p class="text-center" data-key="PortSub">
+          Explore my portfolio to see a selection of my work
+        </p>
+        <div class="photo-gallery">
+                  <!-- col-1 -->
+                <div class="column">
+                  <div class="photo">
+                    <img src="/Img/p-sec/cyb1.jpg" alt="Cybersecurity" loading="lazy">
+                    <div class="dis">
+                      <h3 data-key="PhoTitle1">Secure Systems</h3>
+                      <a href="Services.html#Cyber" style="text-decoration: none; color: var(--third-color);" data-key="link">Learn More...</a>
+                    </div>
+                  </div>
+                  <div class="photo">
+                    <img src="/Img/p-sec/wi-net.jpg" alt="Wireless Networking" loading="lazy">
+                    <div class="dis">
+                      <h3 data-key="PhoTitle2">Build Wireless Network</h3>
+                      <a href="Services.html#Net" style="text-decoration: none; color: var(--third-color);" data-key="link">Learn More...</a>
+                    </div>
+                  </div>
+                </div>
+                <!-- col-1 -->
+
+                <!-- col-2 -->
+                <div class="column">
+                  <div class="photo">
+                    <img src="/Img/p-sec/automation.jpg" alt="Automation" loading="lazy">
+                    <div class="dis">
+                      <h3 data-key="PhoTitle3">Automate Machines & Tasks</h3>
+                      <a href="Services.html#Auto" style="text-decoration: none; color: var(--third-color);" data-key="link">Learn More...</a>
+                    </div>
+                  </div>
+                  <div class="photo">
+                    <img src="/Img/p-sec/web.jpg" alt="Web Development" loading="lazy">
+                    <div class="dis">
+                      <h3 data-key="PhoTitle4">Build Modern Websites</h3>
+                      <a href="Services.html#web" style="text-decoration: none; color: var(--third-color);" data-key="link">Learn More...</a>
+                    </div>
+                  </div>
+                </div>
+                <!-- col-2 -->
+
+                <!-- col3 -->
+                <div class="column">
+                  <div class="photo">
+                    <img src="/Img/p-sec/cyb2.jpg" alt="Cybersecurity" loading="lazy">
+                    <div class="dis">
+                      <h3 data-key="PhoTitle5">Secure Local Network</h3>
+                      <a href="Services.html#Cyber" style="text-decoration: none; color: var(--third-color);" data-key="link">Learn More...</a>
+                    </div>
+                  </div>
+                  <div class="photo">
+                    <img src="/Img/p-sec/w-net.jpg" alt="Wired Networking" loading="lazy">
+                    <div class="dis">
+                      <h3 data-key="PhoTitle6">Maintain Network</h3>
+                      <a href="Services.html#Net" style="text-decoration: none; color: var(--third-color);" data-key="link">Learn More...</a>
+                    </div>
+                  </div>
+                </div>
+                <!-- col3 -->
+              </div>
+        </div>
+    </section>
+    <!-- end portfolio section -->
+
+  </main>
+  <!--  end main -->
+
+  <!-- start footer -->
+  <footer class="bg-light">
+    <div class="container fade-in-up">
+      <div class="foot-content">
+        <div class="foot-text">
+          <h2 class="text-center fw-bolder" data-key="FooTitle">Let's Work Together</h2>
+          <p class="text-center" data-key="FooSub">
+            I'm excited to collaborate on projects that challenge and inspire. Whether you have a specific idea in mind or just want to explore possibilities, I'm here to help bring your vision to life. Let's connect and create something amazing together!
+          </p>
+        </div>
+        <ul>
+          <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-telegram-plane"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+        </ul>
+        <div class="contactMe-btn">
+          <a href="Contact.html" class="btn btn-outline-secondary rounded-pill mt-4" role="button" id="contbtn">CONTACT ME</a>
+        </div>
+      </div>
+        <div class="copy-right">
+          <p class="text-lg-start mt-4"> <span style="color: var(--third-color);">&copy;</span>2026 Badis<span style="color: var(--third-color);">.</span>All rights reserved.</p>
+        </div>
+    </div>
+  </footer>
+  <!-- end footer -->
+  
+</div>
+
+</body>
+<!-- Portfolio JS -->
+<script src="Js/portfolio.js"></script>
+<!-- Bootstrap JS -->
+<script src="Bootstrap/bootstrap/js/bootstrap.bundle.min.js"></script>
+</html>

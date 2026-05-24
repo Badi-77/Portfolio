@@ -60,7 +60,7 @@ body.dark-mode {
   --primary-color: #e5e7eb;
   --secondary-color: #0b0f19;
   --third-color: #ff7043; /* keep accent visible */
-  --img-bg: 'Img/dark-bg.png';
+  --img-bg: url('Img/dark-bg.png');
   --video-src: 'Img/hero-dark.mp4';
 }
 

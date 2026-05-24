@@ -25,7 +25,7 @@
   --third-color: orangered;
   --img-bg: url('Img/MySkills-bg.png');
   --video-src: 'Img/hero-light.mp4';
-  --contact-bg : url('Img/hero-bg-light.png');
+  --contact-bg : url('/Img/hero-bg-light.png');
 }
 html {
   scroll-behavior: smooth;

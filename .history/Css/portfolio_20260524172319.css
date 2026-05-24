@@ -23,7 +23,7 @@
   --primary-color: #333;
   --secondary-color: #fff;
   --third-color: orangered;
-  --img-bg: 'Img/MySkills-bg.png';
+  --img-bg: url('Img/MySkills-bg.png');
   --video-src: 'Img/hero-light.mp4';
 }
 html {

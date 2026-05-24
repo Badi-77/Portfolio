@@ -23,7 +23,7 @@
   --primary-color: #333;
   --secondary-color: #fff;
   --third-color: orangered;
-  --img-bg: 'Img/MySkills-bg.png';
+  --img-bg: url('Img/MySkills-bg.png');
   --video-src: 'Img/hero-light.mp4';
 }
 html {
@@ -60,7 +60,7 @@ body.dark-mode {
   --primary-color: #e5e7eb;
   --secondary-color: #0b0f19;
   --third-color: #ff7043; /* keep accent visible */
-  --img-bg: 'Img/dark-bg.png';
+  --img-bg: url('Img/dark-bg.png');
   --video-src: 'Img/hero-dark.mp4';
 }
 

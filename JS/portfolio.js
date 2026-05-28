@@ -696,9 +696,9 @@ const translations = {
     ContactInfoTitle : 'معلومات الاتصال',
     ContactInfoSub : '.لا تتردد في التواصل معنا باستخدام التفاصيل أدناه',
     FormTitle2 : 'المكتب الرئيسي',
-    FormSub2 : '...قريباً',
+    FormSub2 : 'قريباً...',
     FormTitle3 : 'فرع المكتب',
-    FormSub3 : '...قريباً',
+    FormSub3 : 'قريباً...',
     FormSocial : 'معلومات التواصل الاجتماعي'
     //contact-info
     //Contact Page
